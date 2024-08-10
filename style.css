@@ -19,7 +19,7 @@ html, body, a{
 }
 .main nav{
     width: 100%;
-    min-height: 10vh;
+    min-height: 9vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -41,7 +41,7 @@ nav i{
 }
 .center{
     width: 100%;
-    padding: 40px 50px;
+    padding: 0px 50px;
 }
 .center h1{
     font-weight: 300;
@@ -62,7 +62,7 @@ nav i{
     width: 20%;
 }
 .right .elem{
-    padding:15px 0px;
+    padding:10.5px 0px;
     margin: 5px;
     border-top: 2px solid #000;
     display: flex;
@@ -74,16 +74,16 @@ nav i{
     font-weight: 500;
 }
 .right .elem i{
-    display: none;
+    opacity: 0;
     font-size: 25px;
 }
 .right .elem:hover i{
-    display: block;
+    opacity: 1;
 }
 
 .bottom{
-    min-height: 70%;
+    min-height: 30%;
     width: 100%;
     background-image: url(https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center ;
+    background-position: 50% 46%; ;
 }
